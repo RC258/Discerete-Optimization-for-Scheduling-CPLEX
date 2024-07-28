@@ -2,7 +2,6 @@
 This repository provides multiple scheduling models. The software solver used is ["IBM ILOG CPLEX Optimization Studio"](https://www.ibm.com/products/ilog-cplex-optimization-studio).  which is a fableous optimization solver.
 
 # Tutorial for using CPLEX
-#### Example: Aviation Scheduling
 - Download Required Files: Begin by downloading the necessary files for the example. These files include the MOD, DAT, and Excel files.
 - Launch CPLEX and navigate to the top-left corner of the window. Click on 'New' → 'OPL' → 'OPL Project' to create a new project in your desired location.
 - Open the folder you created and place all downloaded files into it. Then, refresh/restart your CPLEX.
@@ -11,9 +10,12 @@ This repository provides multiple scheduling models. The software solver used is
 - Right-click on your created configuration and select 'Run'. The optimization results will be presented in the bottom left corner of the window. The 'result' section will display the optimal scheduling outcomes.
 
 ## Aviation Trainee Scheduling
+#### Remark:
+- Considering data ethics and privacy, traniees information have been anonymized.
+
 #### Objectives:
 - Provide the optimal weekly scheduling plan for simulators and trainees that maximizes the trainees' preferred slots and fulfills all constraints.
-- 
+  
 #### Schedluing Information:
 - Number of Trainees: 30
 - Number of Sessions: 14
@@ -31,15 +33,18 @@ This repository provides multiple scheduling models. The software solver used is
 
   
 ## Comining Tea Beverage Bar Shift Scheduling
+#### Remark:
+- Considering data ethics and privacy, students information have been anonymized.
+
 #### Objective: 
--Ensure that all part-time employees are fully scheduled while balancing the number of shifts between international students and local workers.
+-Ensure that all part-time students employees are fully scheduled while balancing the number of shifts between international students and local workers.
 
 #### Constraints:
-- Each worker can work only one shift per time period, and every shift must be assigned exactly one worker.
-- Each international part-time must be fully scheduled for 10 shifts per week.
+- Each employee can work only one shift per time period, and every shift must be assigned exactly one employee.
+- Each international part-time employee must be scheduled for 10 shifts per week.
 - Each international part-time can work at most 2 shifts per day (4 hrs).
 - Each Local student must be scheduled for exactly 14 shifts per week.
 - Each local student can work at most 4 shifts peer day(8 hrs).
 - Each worker's daily shifts must be scheduled consecutively.
 - For any staff is scheduled for a night shift, they cannot be scheduled for the morning shift of the following day.
-- The student timetable must take priority and cannot be conflicted with any shift scheduling. 
+- The students' employee academic timetable must take priority and cannot conflict with any shift scheduling.
