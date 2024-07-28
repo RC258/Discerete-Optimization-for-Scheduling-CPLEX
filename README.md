@@ -24,3 +24,16 @@ This repository provides multiple scheduling models. The required softare is ["I
 - Each trainee will provide their unavailable time blocks during which they cannot be scheduled.
 - Each trainee will provide their preferred time blocks, which should be maximized to align with their preferences.
 
+## Comining Tea Beverage Bar Shift Scheduling
+#### Objective: 
+-Ensure that all part-time employees are fully scheduled while balancing the number of shifts between international students and local workers.
+
+#### Constraints:
+- Each worker can work only one shift per time period, and every shift must be assigned exactly one worker.
+- Each international part-time must be fully scheduled for 10 shifts per week.
+- Each international part-time can work at most 2 shifts per day (4 hrs).
+- Each Local student must be scheduled for exactly 14 shifts per week.
+- Each local student can work at most 4 shifts peer day(8 hrs).
+- Each worker's daily shifts must be scheduled consecutively.
+- For any staff is scheduled for a night shift, they cannot be scheduled for the morning shift of the following day.
+- The student timetable must take priority and cannot be conflicted with any shift scheduling. 
