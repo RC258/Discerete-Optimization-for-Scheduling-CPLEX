@@ -12,9 +12,14 @@ This repository provides multiple scheduling models. The required softare is ["I
 
 ## Aviation Trainee Scheduling
 #### Objectives:
-- Ensure each simulator will be schedule with one trainee.
+- Provide the optimial weekly shceduling plan for simulators and trainees.
+
+#### Schedluing Information:
+- Number of Trainees: 30
+- Number of Sessions: 14
 
 #### Constraints:
+- Each session must be assigned one simulator and one trainee.
 - Each simulator is associated with a specific aviation type. Each trainee is only registered into simulators that match their driving certification. Trainees can only be scheduled in simulators for which they have the appropriate certification.
 - Each trainee will provide their unavailable time blocks during which they cannot be scheduled.
 - Each trainee will provide their preferred time blocks, which should be maximized to align with their preferences.
