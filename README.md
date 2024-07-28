@@ -10,4 +10,12 @@ This repository provides multiple scheduling models. The required softare is ["I
 - Drag the MOD file and DAT files into your created Configurations.
 - Right click your created Configurations and click 'Run this'. The optimization results will presented at left concer of the window. The 'result' shows the optimal scheduling results.
 
+## Aviation Trainee Scheduling
+#### Objectives:
+- Ensure each simulator will be schedule with one trainee.
+
+#### Constraints:
+- Each simulator is associated with a specific aviation type. Each trainee is only registered into simulators that match their driving certification. Trainees can only be scheduled in simulators for which they have the appropriate certification.
+- Each trainee will provide their unavailable time blocks during which they cannot be scheduled.
+- Each trainee will provide their preferred time blocks, which should be maximized to align with their preferences.
 
