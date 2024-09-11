@@ -1,5 +1,5 @@
 # Introduction
-This repository provides multiple scheduling models. The software solver used is ["IBM ILOG CPLEX Optimization Studio"](https://www.ibm.com/products/ilog-cplex-optimization-studio).  which is a fableous optimization solver.
+This repository provides multiple scheduling models. The software solver used is ["IBM ILOG CPLEX Optimization Studio"](https://www.ibm.com/products/ilog-cplex-optimization-studio).  which is a fabulous optimization solver.
 
 # Tutorial for using CPLEX
 - Download Required Files: Begin by downloading the necessary files for the example. These files include the MOD, DAT, and Excel files.
